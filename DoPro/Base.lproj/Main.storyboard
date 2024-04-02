@@ -124,6 +124,9 @@
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="btn_register:" destination="9y6-CF-fvI" eventType="touchUpInside" id="sIT-yF-plz"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome! Let’s get you started" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ni-jK-HuH">
                                 <rect key="frame" x="50" y="245" width="293" height="20.333333333333314"/>
@@ -252,6 +255,9 @@
                                         <state key="normal" title="Sign in">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
+                                        <connections>
+                                            <action selector="btn_sign:" destination="9y6-CF-fvI" eventType="touchUpInside" id="Zcr-jJ-yLN"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -313,6 +319,9 @@
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Log in"/>
+                                <connections>
+                                    <action selector="btn_login:" destination="1RD-qY-VDh" eventType="touchUpInside" id="kiN-05-kmA"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome back!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="na2-02-0Y0">
                                 <rect key="frame" x="50" y="245" width="293" height="20.333333333333314"/>
@@ -385,6 +394,9 @@
                                         <state key="normal" title="Sign Up">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
+                                        <connections>
+                                            <action selector="btn_signup:" destination="1RD-qY-VDh" eventType="touchUpInside" id="ZAz-O8-Clu"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -486,6 +498,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="yXA-ik-aev"/>
+                    <connections>
+                        <outlet property="img" destination="cfF-49-1Ef" id="fae-Gm-aQb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jQE-ul-PXw" sceneMemberID="firstResponder"/>
             </objects>

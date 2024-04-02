@@ -14,6 +14,8 @@ class Login_vc: UIViewController {
     @IBOutlet weak var txt_view2: UIView!
     
     @IBOutlet weak var btn_login: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,7 +26,14 @@ class Login_vc: UIViewController {
 
     }
     
-
+    @IBAction func btn_login(_ sender: Any) {
+    }
+    
+    @IBAction func btn_signup(_ sender: Any) {
+        
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RegistrationVC") as! RegistrationVC
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     
 
 }

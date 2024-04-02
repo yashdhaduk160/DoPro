@@ -28,6 +28,16 @@ class RegistrationVC: UIViewController {
         
     }
     
+    @IBAction func btn_register(_ sender: Any) {
+    }
+    
+    
+    @IBAction func btn_sign(_ sender: Any) {
+        
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Login_vc") as! Login_vc
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
     
     
 }
